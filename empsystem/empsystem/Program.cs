@@ -30,9 +30,10 @@
             }
             totalEmpHrs += empHrs;
 
-            Console.WriteLine("Days :" + " Emp Hrs : " + empHrs);
+            Console.WriteLine("Days :" + totalWorkingDays + " Emp Hrs :" + empHrs);
         }
         int totalEmpWage = totalEmpHrs * EmpRatePerHr;
         Console.WriteLine("Total emp Wage : " + totalEmpWage);
     }
 }
+
